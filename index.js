@@ -7,7 +7,9 @@ import cors from "cors";
 const app = express();
 dotenv.config();
 
-app.listen(4000, () => {
+const port = 4000 || process.env.PORT;
+
+app.listen(port, () => {
   console.log("Server is Running at 4000");
 });
 
