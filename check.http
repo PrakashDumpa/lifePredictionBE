@@ -1,4 +1,4 @@
-GET http://localhost:4000/result
+GET https://lifepredictionbe.onrender.com/result
 
 ###
 POST http://localhost:4000/get-result

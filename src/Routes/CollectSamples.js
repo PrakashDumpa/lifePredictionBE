@@ -23,7 +23,6 @@ const getFinalResult = async (request, response) => {
     console.log("Accessed - getFinalResult API");
     // CRUD code
     const obj = request.body;
-    console.log(obj);
     const result = await Sample.findOne(obj);
     if (result === null) {
       response.status(404);
